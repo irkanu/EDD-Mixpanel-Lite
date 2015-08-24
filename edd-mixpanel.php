@@ -111,7 +111,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
             // Register settings
             add_filter( 'edd_settings_extensions', array( $this, 'settings' ), 1 );
 
-			// Track items added to the cart
+            // Track items added to the cart
             if ( $edd_options['edd_mixpanel_track_added_to_cart'] == true ) {
                 add_action( 'edd_post_add_to_cart', array( $this, 'track_added_to_cart' ) );
             }
