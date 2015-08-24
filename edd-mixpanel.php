@@ -273,7 +273,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
             $event_props['product_name'] = get_the_title( $download_id );
             $event_props['product_price']= edd_get_cart_item_price( $download_id, $options );
 
-	        // If subscription (Restrict Content Pro) data exists, send it too
+            // If subscription (Restrict Content Pro) data exists, send it too
             if( function_exists( 'rcp_get_subscription' ) && is_user_logged_in() ) {
                 $event_props['subscription'] = rcp_get_subscription( get_current_user_id() );
             }
