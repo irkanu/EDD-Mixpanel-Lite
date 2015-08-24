@@ -1,0 +1,64 @@
+=== EDD Mixpanel ===
+Contributors: irkanu
+Donate link: https://eddmixpanel.com/
+Tags: edd, easy digital downloads, mixpanel, mixpanelphp, analytics, free, wordpress
+Requires at least: 3.0.0
+Tested up to: 4.3.0
+Stable tag: 1.0.0
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.html
+
+Connect Mixpanel with Easy Digital Downloads: Visualize product revenue, customer data, conversion rates, and more.
+
+== Description ==
+= Overview =
+The <strong>EDD Mixpanel</strong> plugin allows you to quickly and easily connect your Easy Digital Downloads store to the most powerful analytical software. Mixpanel makes it easy to track customers, revenue, funnels, and more. The platform is incredibly easy-to-use. Our premium version is currently in alpha testing & all information available here may or may not make it into production. If you are interested in beta testing, when the time comes, then please [get in touch](https://eddmixpanel.com/contact/).
+
+> <strong>Priority Support</strong><br>
+> We do not provide support for EDD Mixpanel on the WordPress.org forums. Priority email support is available to those that purchase the [Premium EDD Mixpanel plugin](https://eddmixpanel.com/) only.
+> The premium version allows you to track up to 24 events.
+>
+> We will be providing short video tutorials to help you get the most out of Mixpanel.
+
+= Built for Mixpanel =
+This Easy Digital Downloads extension was developed to integrate with [Mixpanel](https://mixpanel.com), one of the most granular analytics tool available. If you haven't already, you'll need at least a [free account](https://mixpanel.com/register/) to get started.
+
+= Turn Insight Into Action =
+We'll show you how to track your revenue overtime and find which products are performing well and which aren't. Mixpanel's granularity allows you to segment data by product, category, location, and much more!
+
+= Visualize The Data =
+Stop waisting your time looking at numbers on a screen and easily generate graphs based on your sales funnel. This will allow you to find out where your checkout process is doing well, or not so well.
+
+= Real-Time Analytics =
+Who doesn't love real-time analytics? Instantly see how your customers are interacting with your Easy Digital Downloads store.
+
+= Choose What Gets Tracked =
+The free version of EDD Mixpanel only allows 2 events to be tracked; however, the premium version has up to 24 available actions to track.
+
+= Disclosure =
+I, the plugin author, am not affiliated with [Mixpanel](https://mixpanel.com/), nor [Easy Digital Downloads](https://easydigitaldownloads.com/). All trademarks or registered trademarks are property of their respective owners. I enjoy building products that help people connect their revenue with the data.
+
+== Installation ==
+
+= Automatic Installation =
+
+The easiest way to install this plugin is automatically through WordPress because it will handle all of the file transferring.
+
+= Manual Installation =
+
+The manual installation method involves downloading the plugin and uploading it to your server via your favorite FTP application. The WordPress codex contains [instructions on how to do this here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+
+== Frequently Asked Questions ==
+
+= How do I gain more data points? =
+
+It's easy! Become a [Mixpanel Partner](https://mixpanel.com/free/) by adding their badge.
+
+== Screenshots ==
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial Release
+
+== Upgrade Notice ==

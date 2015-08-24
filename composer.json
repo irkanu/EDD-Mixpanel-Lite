@@ -1,0 +1,21 @@
+{
+  "name": "dylan/easy-digital-downloads-mixpanel",
+  "type": "wordpress-plugin",
+  "description": "Easily integrate Mixpanel analytics with Easy Digital Downloads.",
+  "keywords": [ "edd",
+    "dylan",
+    "mixpanel",
+    "mixpanelphp"
+  ],
+  "homepage": "https://eddmixpanel.com/",
+  "authors": [
+    {
+      "name": "Dylan Ryan",
+      "email": "drryan@ncsu.edu",
+      "homepage": "http://dylanryan.co/"
+    }
+  ],
+  "require": {
+    "mixpanel/mixpanel-php" : "2.*"
+  }
+}
