@@ -267,7 +267,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
                 $this->mixpanel->people->set( get_current_user_id(), $person_props );
             }
 
-	        // Send the product, session, and user data
+            // Send the product, session, and user data
             $event_props['ip']           = edd_get_ip();
             $event_props['session_id']   = session_id();
             $event_props['product_name'] = get_the_title( $download_id );
