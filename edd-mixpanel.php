@@ -256,7 +256,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
             // Setup Mixpanel instance
             $this->set_token();
 
-	        // If we failed, bail
+            // If we failed, bail
             if( ! $this->track )
                 return;
 
