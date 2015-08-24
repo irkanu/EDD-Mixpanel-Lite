@@ -1,3 +1,5 @@
+![EDD Mixpanel Lite](https://raw.githubusercontent.com/irkanu/EDD-Mixpanel-Lite/master/assets/images/edd-mixpanel-lite-bg.png)
+
 # EDD Mixpanel Lite
 
 EDD Mixpanel Lite makes it easy to connect Mixpanel with Easy Digital Downloads.
