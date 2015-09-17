@@ -18,7 +18,11 @@ if( !defined( 'ABSPATH' ) ) exit;
  */
 class EDD_Extension_Activation {
 
-    public $plugin_name, $plugin_path, $plugin_file, $has_edd, $edd_base;
+    public $plugin_name;
+    public $plugin_path;
+    public $plugin_file;
+    public $has_edd;
+    public $edd_base;
 
     /**
      * Setup the activation class
