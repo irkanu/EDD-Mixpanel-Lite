@@ -268,7 +268,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
          * @param   array   $options        Optional parameters, used for defining variable prices
          */
         public function track_added_to_cart( $download_id = 0, $options = array() ) {
-	        global $edd_options;
+            global $edd_options;
 
             // Store tracked event properties
             $event_props = array();
