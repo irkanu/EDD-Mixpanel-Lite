@@ -272,6 +272,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
 
             // Store tracked event properties
             $event_props = array();
+            $person_props = array();
 
             // Setup Mixpanel instance
             $this->set_token();
@@ -292,7 +293,6 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
             $event_props['session_id']          = session_id();
             $event_props['product_name']        = get_the_title( $download_id );
             $event_props['product_price']       = edd_get_cart_item_price( $download_id, $options );
-	        //$event_props['product_quantity']  = edd_get_cart_quantity();
 
             // If subscription (Restrict Content Pro) data exists, send it too
             if( function_exists( 'rcp_get_subscription' ) && is_user_logged_in() ) {
@@ -400,7 +400,7 @@ function edd_mixpanel_load() {
         }
 
         $activation = new EDD_Extension_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
-        $activation = $activation->run();
+        $activation->run();
     } else {
         return EDD_Mixpanel::instance();
     }
