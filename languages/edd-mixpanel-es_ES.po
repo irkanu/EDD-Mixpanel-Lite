@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Mixpanel Lite\n"
+"POT-Creation-Date: 2015-09-17 04:06-0500\n"
+"PO-Revision-Date: 2015-09-17 04:11-0500\n"
+"Last-Translator: Dylan Ryan <drryan@ncsu.edu>\n"
+"Language-Team: Dylan Ryan <drryan@ncsu.edu>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: edd-mixpanel.php:191
+msgid "Mixpanel Settings"
+msgstr "Ajustes Mixpanel"
+
+#: edd-mixpanel.php:192
+msgid "Configure Mixpanel Settings"
+msgstr "Establecer la configuración Mixpanel"
+
+#: edd-mixpanel.php:197
+msgid "Project Token"
+msgstr "Token"
+
+#: edd-mixpanel.php:198
+msgid "Enter the Token for the Mixpanel Project you want to track data for."
+msgstr ""
+"Introduzca el token para el Proyecto Mixpanel desea realizar un seguimiento "
+"de datos para."
+
+#: edd-mixpanel.php:204
+msgid "Track \"Added To Cart\"?"
+msgstr "Seguimiento de \"Añadir al carro\"?"
+
+#: edd-mixpanel.php:205
+msgid "Check this box to track users that added items to their cart."
+msgstr ""
+"Marcar esta opción para realizar un seguimiento de los usuarios que agregan "
+"elementos a su carrito."
+
+#: edd-mixpanel.php:210
+msgid "\"Added To Cart\" Label"
+msgstr "\"Añadir al carro\" Etiqueta"
+
+#: edd-mixpanel.php:211
+msgid ""
+"Enter the label that identifies this action in Mixpanel. Default: EDD Added "
+"To Cart"
+msgstr ""
+"Introduzca la etiqueta que identifica esta acción en Mixpanel. Por defecto: "
+"EDD agregó a la Cesta"
+
+#: edd-mixpanel.php:214
+msgid "EDD Added To Cart"
+msgstr "EDD Añadido al carrito"
+
+#: edd-mixpanel.php:218
+msgid "Track \"Completed Purchases\"?"
+msgstr "Seguimiento de \"Compras completadas\"?"
+
+#: edd-mixpanel.php:219
+msgid "Check this box to track completed purchases."
+msgstr ""
+"Marcar esta opción para realizar un seguimiento de las compras realizadas."
+
+#: edd-mixpanel.php:224
+msgid "\"Completed Purchases\" Label"
+msgstr "\"Las compras completadas\" Etiqueta"
+
+#: edd-mixpanel.php:225
+msgid ""
+"Enter the label that identifies this action in Mixpanel. Default: EDD "
+"Completed Purchase"
+msgstr ""
+"Introduzca la etiqueta que identifica esta acción en Mixpanel. Por defecto: "
+"EDD Compra Completado"
+
+#: edd-mixpanel.php:228
+msgid "EDD Completed Purchase"
+msgstr "EDD Compra Completado"
+
+#: includes/class.extension-activation.php:48
+msgid "This plugin"
+msgstr "Este plugin"
+
+#: includes/class.extension-activation.php:85
+msgid "activate it"
+msgstr "activarlo"
+
+#: includes/class.extension-activation.php:88
+msgid "install it"
+msgstr "instalarlo"
+
+#: includes/class.extension-activation.php:91
+#, php-format
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr "requiere Easy Digital Descargas! Por favor,%s para continuar!"

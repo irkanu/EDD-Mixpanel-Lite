@@ -3,10 +3,30 @@
  * Plugin Name:     Easy Digital Downloads - Mixpanel Lite
  * Plugin URI:      http://eddmixpanel.com/
  * Description:     Easily integrate Mixpanel analytics with Easy Digital Downloads.
- * Version:         1.0.0
+ * Version:         1.0.1
  * Author:          Dylan Ryan
  * Author URI:      http://dylanryan.co
+ * Domain Path:     /languages
  * Text Domain:     edd-mixpanel
+ * GitHub URI:      https://github.com/irkanu/EDD-Mixpanel-Lite
+ * GitHub Branch:   master
+ * License:         GPLv2 or later
+ *
+ * Note:            This code is heavily inspired by Pippin and his original edd-mixpanel repository.
+ *                  https://github.com/easydigitaldownloads/edd-mixpanel
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package         EDD\EDD_Mixpanel
  * @author          Dylan Ryan
@@ -74,7 +94,7 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
          */
         private function setup_constants() {
             // Plugin version
-            define( 'EDD_MIXPANEL_VER', '1.0.0' );
+            define( 'EDD_MIXPANEL_VER', '1.0.1' );
 
             // Plugin path
             define( 'EDD_MIXPANEL_DIR', plugin_dir_path( __FILE__ ) );
@@ -268,10 +288,11 @@ if( !class_exists( 'EDD_Mixpanel' ) ) {
             }
 
             // Send the product, session, and user data
-            $event_props['ip']           = edd_get_ip();
-            $event_props['session_id']   = session_id();
-            $event_props['product_name'] = get_the_title( $download_id );
-            $event_props['product_price']= edd_get_cart_item_price( $download_id, $options );
+            $event_props['ip']                  = edd_get_ip();
+            $event_props['session_id']          = session_id();
+            $event_props['product_name']        = get_the_title( $download_id );
+            $event_props['product_price']       = edd_get_cart_item_price( $download_id, $options );
+	        //$event_props['product_quantity']  = edd_get_cart_quantity();
 
             // If subscription (Restrict Content Pro) data exists, send it too
             if( function_exists( 'rcp_get_subscription' ) && is_user_logged_in() ) {
