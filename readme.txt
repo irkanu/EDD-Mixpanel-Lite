@@ -4,7 +4,7 @@ Donate link: https://eddmixpanel.com/
 Tags: edd, easy digital downloads, mixpanel, mixpanelphp, analytics, free, wordpress
 Requires at least: 3.0.0
 Tested up to: 4.3.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -57,6 +57,9 @@ It's easy! Become a [Mixpanel Partner](https://mixpanel.com/free/) by adding the
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed Undefined index when not set.
+
 = 1.0.1 =
 * l10n scaffolding - Thanks [@fxbenard](https://twitter.com/fxbenard)!
 
@@ -64,3 +67,6 @@ It's easy! Become a [Mixpanel Partner](https://mixpanel.com/free/) by adding the
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* IMPORTANT: Fixes undefined index when tracking is not set.
