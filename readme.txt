@@ -43,6 +43,8 @@ I, the plugin author, am not affiliated with [Mixpanel](https://mixpanel.com/), 
 
 The easiest way to install this plugin is automatically through WordPress because it will handle all of the file transferring.
 
+https://www.youtube.com/watch?v=bOVKlfxBYNw&w=532&rel=0
+
 = Manual Installation =
 
 The manual installation method involves downloading the plugin and uploading it to your server via your favorite FTP application. The WordPress codex contains [instructions on how to do this here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
