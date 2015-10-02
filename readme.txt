@@ -59,6 +59,9 @@ It's easy! Become a [Mixpanel Partner](https://mixpanel.com/free/) by adding the
 
 == Changelog ==
 
+= 1.0.3 =
+* Removed PHP sessions
+
 = 1.0.2 =
 * Fixed Undefined index when not set.
 
@@ -69,6 +72,9 @@ It's easy! Become a [Mixpanel Partner](https://mixpanel.com/free/) by adding the
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+* IMPORTANT: Removes use of PHP sessions.
 
 = 1.0.2 =
 * IMPORTANT: Fixes undefined index when tracking is not set.
