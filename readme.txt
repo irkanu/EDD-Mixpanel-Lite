@@ -4,7 +4,7 @@ Donate link: https://eddmixpanel.com/
 Tags: edd, easy digital downloads, mixpanel, mixpanelphp, analytics, free, wordpress
 Requires at least: 3.0.0
 Tested up to: 4.3.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 

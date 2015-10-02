@@ -3,7 +3,7 @@
  * Plugin Name:     Easy Digital Downloads - Mixpanel Lite
  * Plugin URI:      http://eddmixpanel.com/
  * Description:     Easily integrate Mixpanel analytics with Easy Digital Downloads.
- * Version:         1.0.2
+ * Version:         1.0.3
  * Author:          Dylan Ryan
  * Author URI:      http://dylanryan.co
  * Domain Path:     /languages
@@ -100,7 +100,7 @@ if ( ! class_exists( 'EDD_Mixpanel' ) ) {
 		 * @return      void
 		 */
 		private function setup_constants() {
-			define( 'EDD_MIXPANEL_VER', '1.0.2' );
+			define( 'EDD_MIXPANEL_VER', '1.0.3' );
 			define( 'EDD_MIXPANEL_DIR', plugin_dir_path( __FILE__ ) );
 			define( 'EDD_MIXPANEL_URL', plugin_dir_url( __FILE__ ) );
 		}
